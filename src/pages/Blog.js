@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Blog() {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch('/posts.json').then(r => r.json()).then(setPosts);
+    fetch('%PUBLIC_URL%/posts.json').then(r => r.json()).then(setPosts);
   }, []);
   return (
     <div className="container">

@@ -2,7 +2,7 @@
 :root { --blue:#0b84ff; --pink:#ff2fb3; --lime:#b7ff2f; --ink:#0b0d10; --card:#0f1115; --muted:#9aa4b2; }
 *{box-sizing:border-box}
 html,body,#root{height:100%}
-body { margin:0; font-family: Inter, system-ui, "Segoe UI", Arial, sans-serif; color:#eef3f9; background:#0b0d10 url('/bg.svg') center/cover no-repeat fixed; }
+body { margin:0; font-family: Inter, system-ui, "Segoe UI", Arial, sans-serif; color:#eef3f9; background:#0b0d10 url('%PUBLIC_URL%/bg.svg') center/cover no-repeat fixed; }
 a { color:var(--lime); text-decoration:none; }
 .header { position:sticky; top:0; z-index:10; backdrop-filter: blur(12px); background:rgba(11,13,16,0.6); border-bottom:1px solid rgba(255,255,255,0.08); padding:10px 18px; display:flex; align-items:center; justify-content:space-between; }
 .logo { display:flex; align-items:center; gap:12px; }

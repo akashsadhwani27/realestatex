@@ -14,13 +14,12 @@ function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <img src="/logo_black.png" alt="RealestateX logo" />
+        <img src="%PUBLIC_URL%/logo_black.png" alt="RealestateX logo" />
         <div>
           <div style={{fontSize:18, fontWeight:900, letterSpacing:0.4}}>Realestate<span style={{color:'#0b84ff'}}>X</span></div>
           <div className="badge">Powered by PropbullsRealtors • propbullsrealtor.in</div>
         </div>
       </div>
-
       <div className="nav">
         <Link className="tab" to="/">Home</Link>
         <a className="tab" href="#large-showrooms">Large Showrooms</a>
@@ -35,11 +34,7 @@ function Header() {
 }
 
 function Footer() {
-  return (
-    <div className="footer">
-      © 2025 RealestateX • propbullsrealtor.in — Built in Ahmedabad • Serving Gujarat & NRIs
-    </div>
-  );
+  return <div className="footer">© 2025 RealestateX • propbullsrealtor.in — Built in Ahmedabad • Serving Gujarat & NRIs</div>;
 }
 
 function WhatsAppFloat() {
@@ -57,9 +52,7 @@ function WhatsAppFloat() {
           </a>
         </div>
       )}
-      <button className="float-whatsapp" onClick={()=>setOpen(v=>!v)}>
-        WhatsApp
-      </button>
+      <button className="float-whatsapp" onClick={()=>setOpen(v=>!v)}>WhatsApp</button>
     </>
   );
 }
@@ -79,5 +72,4 @@ function Site() {
   );
 }
 
-const root = createRoot(document.getElementById('root'));
-root.render(<Site />);
+createRoot(document.getElementById('root')).render(<Site />);

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clients • RealestateX</title>
+  <meta name="description" content="Brands and companies RealestateX has supported with site selection, lease structuring, and rollout advisory across Gujarat." />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+
+  <meta property="og:title" content="RealestateX – Commercial Real Estate in Gujarat">
+  <meta property="og:description" content="Broker-light marketplace for Grade-A showrooms, offices, warehouses, and plots. Direct brand ↔ landlord, verified listings.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.realestatex.example/clients.html">
+  <meta property="og:image" content="/assets/img/hero-buildings.svg">
+  <link rel="canonical" href="https://www.realestatex.example/clients.html">
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Organization", "name": "RealestateX", "url": "https://www.realestatex.example/clients.html", "logo": "/assets/logo-realestatex.svg", "contactPoint": [{"@type": "ContactPoint", "telephone": "+91-84018-40108", "contactType": "customer service", "areaServed": "IN-GJ", "availableLanguage": ["en", "hi", "gu"]}]}
+  </script>
+
+</head>
+<body>
+  <div class="utility">
+    <div class="container">
+      <div class="u-left">
+        <span class="u-item">📞 +91 84018 40108</span>
+        <span class="dot">•</span>
+        <span class="u-item">📞 +91 92272 89563</span>
+        <span class="dot">•</span>
+        <a class="u-item link" href="mailto:sales@propbullsrealtor.in">✉️ sales@propbullsrealtor.in</a>
+      </div>
+      <div class="u-right"><span class="u-item muted">Powered by PropbullsRealtors • propbullsrealtor.in</span></div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-row">
+      <a class="brand" href="./">
+        <img src="./assets/logo-realestatex.svg" alt="RealestateX" width="152" height="32" />
+      </a>
+      <nav class="nav">
+        <a href="./" class="nav-link">Home</a>
+        <a href="./#showrooms" class="nav-link">Large Showrooms</a>
+        <a href="./#offices" class="nav-link">Offices</a>
+        <a href="./#warehouses" class="nav-link">Warehouses</a>
+        <a href="./#plots" class="nav-link">Plots</a>
+        <a href="./clients.html" class="nav-link active">Clients</a>
+        <a href="./#insights" class="nav-link">Insights</a>
+      </nav>
+      <div class="header-cta">
+        <a class="btn ghost" href="tel:+918401840108">Call: +91 84018 40108</a>
+        <a class="btn grad" href="./#post">List a Property</a>
+      </div>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="clients-hero">
+    <div class="container">
+      <h1>Clients & Partners</h1>
+      <p class="sub">Select brands we’ve supported across Gujarat — from high-street retail to corporate offices and A+ warehouses.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="logo-wall">
+        <div class="tile"><img src="./assets/logos/rangoli-icecream.svg" alt="Rangoli Icecream"></div>
+        <div class="tile"><img src="./assets/logos/gynoveda.svg" alt="Gynoveda Femtech Private Limited"></div>
+        <div class="tile"><img src="./assets/logos/landmark-immigration.svg" alt="Landmark Immigration Consultants Limited"></div>
+        <div class="tile"><img src="./assets/logos/kiosk-kaffee.svg" alt="Kiosk Kaffee"></div>
+        <!-- Add more tiles as you sign more clients -->
+      </div>
+      <p class="muted small">* Logos shown for identification only. Engagements include site selection, lease/commercials, and rollout advisory.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container foot-grid">
+      <div>
+        <img class="foot-logo" src="./assets/logo-realestatex.svg" alt="RealestateX" width="160" height="34" />
+        <p class="muted">Broker-light commercial marketplace for Gujarat & West India. Showrooms, offices, warehouses, and plots.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="foot-links">
+          <li><a href="./#showrooms">Large Showrooms</a></li>
+          <li><a href="./#offices">Offices</a></li>
+          <li><a href="./#warehouses">Warehouses</a></li>
+          <li><a href="./#plots">Plots</a></li>
+          <li><a href="./clients.html">Clients</a></li>
+          <li><a href="./#insights">Insights</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="foot-links">
+          <li>📞 +91 84018 40108</li>
+          <li>📞 +91 92272 89563</li>
+          <li>✉️ sales@propbullsrealtor.in</li>
+          <li>🕘 Mon–Sat, 10:00–19:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div class="container small muted">© <span id="y"></span> RealestateX. All rights reserved.</div>
+    </div>
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear();
+      const hb = document.querySelector('.hamburger');
+      const nav = document.querySelector('.nav');
+      hb.addEventListener('click', () => {
+        const open = hb.getAttribute('aria-expanded') === 'true';
+        hb.setAttribute('aria-expanded', String(!open));
+        document.body.classList.toggle('nav-open');
+      });
+    </script>
+  </footer>
+</body>
+</html>

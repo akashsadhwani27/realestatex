@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1630"/>
+      <stop offset="60%" stop-color="#0a1022"/>
+      <stop offset="100%" stop-color="#0a0d16"/>
+    </linearGradient>
+    <linearGradient id="street" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b84ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff2fb3" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="brand-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b84ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0b84ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+  </defs>
+
+  <!-- Night sky -->
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+
+  <!-- Far skyline -->
+  <g fill="#0f172a">
+    <rect x="40"  y="520" width="120" height="420"/>
+    <rect x="180" y="560" width="140" height="380"/>
+    <rect x="350" y="500" width="110" height="440"/>
+    <rect x="500" y="540" width="180" height="400"/>
+    <rect x="720" y="520" width="140" height="420"/>
+    <rect x="900" y="560" width="120" height="380"/>
+    <rect x="1060" y="500" width="160" height="440"/>
+    <rect x="1260" y="535" width="170" height="405"/>
+    <rect x="1470" y="560" width="130" height="380"/>
+    <rect x="1630" y="520" width="140" height="420"/>
+  </g>
+
+  <!-- Mid skyline blocks -->
+  <g>
+    <g fill="#121a31">
+      <rect x="0"   y="600" width="210" height="480"/>
+      <rect x="210" y="620" width="210" height="460"/>
+      <rect x="420" y="590" width="260" height="490"/>
+      <rect x="680" y="610" width="220" height="470"/>
+      <rect x="900" y="590" width="260" height="490"/>
+      <rect x="1160" y="610" width="240" height="470"/>
+      <rect x="1400" y="595" width="300" height="485"/>
+      <rect x="1700" y="620" width="220" height="460"/>
+    </g>
+
+    <!-- Windows -->
+    <g fill="#ffd86b">
+      <!-- Building 1 -->
+      <g>
+        <!-- rows -->
+        <!-- use small windows in a grid -->
+        <!-- left block -->
+        <!-- 0..440 step 28 rows, 10..190 step 26 cols -->
+        <!-- B0 -->
+        <!-- rows -->
+        <!-- generated compactly -->
+        <g>
+          <!-- We repeat small rects; keeping code compact -->
+          <!-- Block functionally aesthetic; not every window is lit (use opacity) -->
+          <!-- B0 -->
+          <!-- rows -->
+          <!-- For brevity, a representative scatter of windows: -->
+          <g opacity="0.35">
+            <rect x="14" y="640" width="8" height="14"/><rect x="40" y="640" width="8" height="14"/><rect x="66" y="640" width="8" height="14"/><rect x="92" y="640" width="8" height="14"/><rect x="118" y="640" width="8" height="14"/><rect x="144" y="640" width="8" height="14"/>
+            <rect x="26" y="668" width="8" height="14"/><rect x="52" y="668" width="8" height="14"/><rect x="78" y="668" width="8" height="14"/><rect x="104" y="668" width="8" height="14"/><rect x="130" y="668" width="8" height="14"/><rect x="156" y="668" width="8" height="14"/>
+            <rect x="14" y="696" width="8" height="14"/><rect x="40" y="696" width="8" height="14"/><rect x="66" y="696" width="8" height="14"/><rect x="92" y="696" width="8" height="14"/><rect x="118" y="696" width="8" height="14"/><rect x="144" y="696" width="8" height="14"/>
+          </g>
+          <g opacity="0.7">
+            <rect x="210" y="640" width="8" height="14"/><rect x="236" y="640" width="8" height="14"/><rect x="262" y="640" width="8" height="14"/><rect x="288" y="640" width="8" height="14"/><rect x="314" y="640" width="8" height="14"/>
+            <rect x="222" y="668" width="8" height="14"/><rect x="248" y="668" width="8" height="14"/><rect x="274" y="668" width="8" height="14"/><rect x="300" y="668" width="8" height="14"/>
+          </g>
+          <g opacity="0.5">
+            <rect x="430" y="640" width="8" height="14"/><rect x="456" y="640" width="8" height="14"/><rect x="482" y="640" width="8" height="14"/><rect x="508" y="640" width="8" height="14"/><rect x="534" y="640" width="8" height="14"/>
+            <rect x="442" y="668" width="8" height="14"/><rect x="468" y="668" width="8" height="14"/><rect x="494" y="668" width="8" height="14"/><rect x="520" y="668" width="8" height="14"/>
+          </g>
+          <g opacity="0.6">
+            <rect x="690" y="640" width="8" height="14"/><rect x="716" y="640" width="8" height="14"/><rect x="742" y="640" width="8" height="14"/><rect x="768" y="640" width="8" height="14"/>
+            <rect x="702" y="668" width="8" height="14"/><rect x="728" y="668" width="8" height="14"/><rect x="754" y="668" width="8" height="14"/>
+          </g>
+          <g opacity="0.55">
+            <rect x="910" y="640" width="8" height="14"/><rect x="936" y="640" width="8" height="14"/><rect x="962" y="640" width="8" height="14"/><rect x="988" y="640" width="8" height="14"/>
+            <rect x="922" y="668" width="8" height="14"/><rect x="948" y="668" width="8" height="14"/><rect x="974" y="668" width="8" height="14"/>
+          </g>
+          <g opacity="0.35">
+            <rect x="1170" y="640" width="8" height="14"/><rect x="1196" y="640" width="8" height="14"/><rect x="1222" y="640" width="8" height="14"/><rect x="1248" y="640" width="8" height="14"/>
+            <rect x="1182" y="668" width="8" height="14"/><rect x="1208" y="668" width="8" height="14"/><rect x="1234" y="668" width="8" height="14"/>
+          </g>
+          <g opacity="0.65">
+            <rect x="1410" y="640" width="8" height="14"/><rect x="1436" y="640" width="8" height="14"/><rect x="1462" y="640" width="8" height="14"/><rect x="1488" y="640" width="8" height="14"/><rect x="1514" y="640" width="8" height="14"/>
+            <rect x="1422" y="668" width="8" height="14"/><rect x="1448" y="668" width="8" height="14"/><rect x="1474" y="668" width="8" height="14"/><rect x="1500" y="668" width="8" height="14"/>
+          </g>
+          <g opacity="0.45">
+            <rect x="1710" y="640" width="8" height="14"/><rect x="1736" y="640" width="8" height="14"/><rect x="1762" y="640" width="8" height="14"/><rect x="1788" y="640" width="8" height="14"/>
+            <rect x="1722" y="668" width="8" height="14"/><rect x="1748" y="668" width="8" height="14"/><rect x="1774" y="668" width="8" height="14"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Street glow -->
+  <rect x="0" y="840" width="1920" height="240" fill="url(#street)"/>
+
+  <!-- Brand diagonal blue glow -->
+  <g filter="url(#blur30)">
+    <rect x="-200" y="0" width="700" height="1080" fill="url(#brand-glow)" transform="rotate(-12 0 0)" opacity="0.65"/>
+  </g>
+
+  <!-- Dark overlay to improve text contrast -->
+  <rect width="1920" height="1080" fill="#000" opacity="0.18"/>
+</svg>
